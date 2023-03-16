@@ -11,3 +11,12 @@
 
 ## 4. B-tree - - - It is a special type of self- balancing Binary Search Tree where each node consists of multiple keys and can have more than two children.
 
+# Properties of Tree data structure
+
+## Recursive data structure: The tree is also known as a recursive data structure. A tree can be defined as recursively because the distinguished node in a tree data structure is known as a root node.
+
+## Number of edges: If there are n nodes, then there would n-1 edges. 
+
+## Depth of node x: The depth of node x can be defined as the length of the path from the root to the node x.
+
+## Height of node x: The height of node x can be defined as the longest path from the node x to the leaf node.
