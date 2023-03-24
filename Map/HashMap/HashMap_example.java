@@ -11,6 +11,10 @@ public class HashMap_example {
         hmap.put(3, 6);
         hmap.put(4, 8);
         hmap.put(5, 10);
+        if (hmap.containsValue(6)){
+            System.out.println("True");
+        }
+        System.out.println(hmap.get(2));
         System.out.println(hmap);
         System.out.println("set Entry "+hmap.entrySet());
         System.out.println("keySet() "+hmap.keySet());
@@ -32,5 +36,16 @@ public class HashMap_example {
         System.out.println(map);
         hmap.replaceAll((k,v)->6);
         System.out.println(hmap);
+
+
+
+        String sb = "hii";
+        String a = "hi";
+        if(sb.contains(a)){
+            System.out.println("true");
+        }
+
+        int arr [] = new int[5];
+        
     }
 }
