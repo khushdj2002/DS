@@ -20,3 +20,21 @@
 ## Depth of node x: The depth of node x can be defined as the length of the path from the root to the node x.
 
 ## Height of node x: The height of node x can be defined as the longest path from the node x to the leaf node.
+
+
+# Tree Traversal --  It is a visiting every node in the tree.
+## 1. inorder 
+### First visit all the node in left subtree
+### Then the root node
+### visit all right 
+![](../../../../AppData/Local/Temp/jyiprwyw.bmp)
+
+
+## 2. preorder
+### Visit root
+### all left subtree node 
+### all right subtree
+## 3. postorder
+### visit all left subtree
+### visit all right subtree
+### visit root node

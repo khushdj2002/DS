@@ -1,8 +1,5 @@
 package STS.LinkedList;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 class Node{
     int data;
     Node next;
