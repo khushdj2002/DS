@@ -14,3 +14,15 @@
 
 ## String.split()
 ### The split() method of String class can be used to extract a substring from a sentence. It accepts arguments in  the form of a regular expression.
+
+
+## startsWith()
+
+### The startsWith()will return true if the string is started with that string.
+### It is case sensitive.
+### public boolean startsWith(String prefix)  
+### public boolean startsWith(String prefix, int offset)  
+
+### prefix : Sequence of character
+
+### offset: the index from where the matching of the string prefix starts.
