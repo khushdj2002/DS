@@ -7,6 +7,13 @@
 
 # HashMap<K,V>  ...  where K stands for key and V for value.
 
+## HashMap<K, V> num = new HashMap<>(8,0.6f);
+
+### Here, 8 (capacity) - This is it can store 8 entries.
+### 0.6f (load factor) - This means whenever our hash table is filled by 60%, the entries are moves to a new hash table double the size of the original hash table.
+
+### If the optional parameters not used, then the default capacity will be 16 and the default load factor will be 0.75.
+
 
 # Constructors
 

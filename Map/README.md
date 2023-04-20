@@ -2,6 +2,8 @@
 
 ## A map contains values on the basis of key i.e key and value pair.
 
+## The Map interface of the java collection framework provides the functionality if the map DS.
+
 ## each key and value os known as an entry.
 
 ![Alt text](https://static.javatpoint.com/images/core/java-map-hierarchy.png)
