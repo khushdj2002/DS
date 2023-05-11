@@ -1,6 +1,5 @@
 package CP;
 
-import java.rmi.server.SocketSecurityException;
 import java.util.*;
 
 public class MatchingCharacter {
