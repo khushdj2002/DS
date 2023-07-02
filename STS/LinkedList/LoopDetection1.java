@@ -3,7 +3,7 @@ package STS.LinkedList;
 public class LoopDetection1 {
     Node head;
 
-    class Node{
+    static class Node{
         int data;
         Node next;
         Node(int data){

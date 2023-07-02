@@ -32,6 +32,6 @@ public class Sort {
             res=res+sb.toString()+" ";
         }
         System.out.println(res);
-        
+
     }
 }

@@ -32,6 +32,9 @@ public class HashMap_example {
         for (Map.Entry m : map.entrySet()){
             System.out.println(m.getKey()+"  "+m.getValue());
         }
+        for (int i = 0; i < map.size(); i++) {
+            System.out.println(map.get(i));
+        }
         map.replace(3,6);
         System.out.println(map);
         hmap.replaceAll((k,v)->6);
