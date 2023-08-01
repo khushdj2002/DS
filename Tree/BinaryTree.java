@@ -39,4 +39,5 @@ public class BinaryTree {
         //Display total number of possible binary search tree with key 5
         System.out.println("Total number of possible Binary Search Trees with given key: " + bt.numOfBST(5));
     }
+
 }
