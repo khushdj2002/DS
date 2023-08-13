@@ -5,6 +5,7 @@ import java.util.LinkedList;
 public class LinkedListDemo {
     public static void main(String[] args) {
         LinkedList1 ls = new LinkedList1();
+        Node head = ls.head;
         ls.insertAtHead(1);
         ls.insertAtHead(2);
         ls.insertAtHead(3);
@@ -20,7 +21,12 @@ public class LinkedListDemo {
         ls.deleteTail();
         ls.deleteLoc(3);
         System.out.println(ls.length());
-        ls.printList();
+        ls.printList(head);
+        Node rev = ls.reverse();
+        ls.printList(rev);
+//        ls.printList(ls.reverse(head));
+
+
     }
 }
 class Node{
@@ -79,8 +85,22 @@ class LinkedList1{
         }
         curr.next=curr.next.next;
     }
-    void printList(){
+    Node reverse(){
         Node curr = head;
+        Node prev=null;
+        Node next = null;
+        while (curr!=null){
+            next=curr.next;
+            curr.next = prev;
+            prev=curr;
+            curr=next;
+        }
+        return prev;
+    }
+    void printList(Node curr){
+        if(curr==null){
+            curr=head;
+        }
         while(curr!=null){
             if (curr.next!=null) {
                 System.out.print(curr.data + " -> ");
