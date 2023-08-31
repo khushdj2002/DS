@@ -1,7 +1,9 @@
 package Others.TUF.Recursion;
 
 import java.util.*;
-
+/*
+It finds all the unique ways of subsequence in an array.
+ */
 public class SubSet2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

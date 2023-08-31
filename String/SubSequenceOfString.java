@@ -4,9 +4,10 @@ class SubSequenceOfString {
     static List<String> al = new ArrayList<>();
     public static void main(String[] args)
     {
-        String s = "abcd";
+        String s = "AAABBC";
         findsubsequences(s, "");
         System.out.println(al);
+        System.out.println(al.size());
     }
 
     private static void findsubsequences(String s,String ans){
