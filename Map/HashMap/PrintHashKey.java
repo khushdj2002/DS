@@ -16,6 +16,7 @@ public class PrintHashKey {
         hmap.put(8,9);
         System.out.println(hmap);
         Set<Integer> set = hmap.keySet();
+
         hmap.remove(3);
         System.out.println(set.iterator().next());
         System.out.println(set.size());
