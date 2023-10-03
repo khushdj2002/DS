@@ -1,6 +1,7 @@
 package Others;
 
 import java.math.BigInteger;
+import java.util.Arrays;
 
 public class BigInteger_3 {
     /**
@@ -17,5 +18,13 @@ public class BigInteger_3 {
         }
         int a=10;
         String c = String.valueOf(a);
+        BigInteger[] bi = new BigInteger[10];
+        bi[0] = new BigInteger(String.valueOf("0"));
+        bi[1] = new BigInteger(String.valueOf("1"));
+        for (int i = 2; i < bi.length; i++) {
+            bi[i] = new BigInteger(String.valueOf(bi[i-2].add(bi[i-1].multiply(bi[i-1]))));
+        }
+        Integer xyz = bi[3].intValue();
+        System.out.println(Arrays.toString(bi));
     }
 }

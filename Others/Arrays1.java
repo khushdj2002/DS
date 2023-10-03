@@ -17,7 +17,9 @@ public class Arrays1 {
             dp[i] = x;
             if(i == len) len++;
         }
-
+        int[] num = {6, 3, 14, 18, 8, 18, 4, 3, 12, 1, 14, 7, 9, 22, 11, 28, 24, 22, 30, 13, 2, 19, 8, 8, 18, 14, 11, 13, 1,};
+        Arrays.sort(num);
+        System.out.println(Arrays.toString(num));
         return len;
     }
 }

@@ -1,9 +1,12 @@
 package Others.TUF.DP;
 
+import java.util.Arrays;
+
 public class CoinChange {
     public static void main(String[] args) {
-        int[] coins = {1,2,5};
-        int amount = 11;
+        int[] coins = {41, 34, 46, 9, 37, 32, 42, 21, 7, 13, 1 ,24, 3 ,43, 2 ,23 ,8 ,45, 19, 30, 29, 18 ,35, 11};
+        Arrays.sort(coins);
+        int amount = 250;
         Integer[][] dp = new Integer[coins.length][amount+1];
         System.out.println(check(amount, coins.length-1, coins,dp));
     }
