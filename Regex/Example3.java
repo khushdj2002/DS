@@ -11,5 +11,13 @@ public class Example3 {
         String a ="abc";
         String b = "abc";
         System.out.println(a.matches(b));
+
+
+
+        System.out.println(Pattern.matches("[^a]{3}","def"));
+        System.out.println(Pattern.matches("^\\d\\w{4}\\.$","1qazq.2w"));
+
+        System.out.println(Pattern.matches("^\\d{2}(---|-|\\.|:)\\d{2}\\1\\d{2}\\1\\d{2}$","12-34-56-78"));
+        System.out.println();
     }
 }
